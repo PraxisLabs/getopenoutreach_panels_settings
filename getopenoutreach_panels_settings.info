@@ -1,0 +1,13 @@
+name = GetOpenOutreach panels settings
+description = Panels and layout settings for GetOpenOutreach sites
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = getopenoutreach_panels_settings
+dependencies[] = ctools
+dependencies[] = page_manager
+dependencies[] = panels
+dependencies[] = radix_layouts
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:1
+features[page_manager_pages][] = front_page

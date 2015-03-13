@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the GetOpenOutreach panels settings feature.
+ */
+
+include_once 'getopenoutreach_panels_settings.features.inc';
